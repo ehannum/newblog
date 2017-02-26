@@ -6,8 +6,8 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: [
-          'src/calendar.js',
-          'src/push-notification.js'
+          'src/newblog.js',
+          'src/logtris.js'
         ],
         dest: 'public/src/build.js'
       }
